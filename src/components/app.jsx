@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import CardGameBoard from './CardGameBoard';
 
 class App extends Component {
     state = {  }
@@ -8,6 +9,7 @@ class App extends Component {
         return (  
             <div className="container-fluid">
                 <Header />
+                <CardGameBoard />
             </div>
         );
     }
